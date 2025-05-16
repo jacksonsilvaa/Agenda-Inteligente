@@ -1,5 +1,5 @@
-from db.session import SessionLocal
-from models.consult_models import Consult
+from app.db.session import SessionLocal
+from app.models.consult_models import Consult
 
 def consult_scheduling():
     db = SessionLocal()

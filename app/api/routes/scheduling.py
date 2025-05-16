@@ -5,4 +5,4 @@ router = APIRouter()
 
 @router.get("/", summary="Consult Check")
 def health_check():
-    return {"status": "ok"}
+    return {"status": "Scheduling ok"}

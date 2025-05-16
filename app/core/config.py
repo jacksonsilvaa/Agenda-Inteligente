@@ -5,9 +5,9 @@ class Settings(BaseSettings):
     PROJECT_NAME: str = "Agendador Inteligente"
     API_V1_STR: str = "/api/v1"
 
-    POSTGRES_USER: str = "user_default"
-    POSTGRES_PASSWORD: str = "password_default"
-    POSTGRES_DB: str = "db_default"
+    POSTGRES_USER: str = "postgres"
+    POSTGRES_PASSWORD: str = "rules"
+    POSTGRES_DB: str = "AgendPRD"
     POSTGRES_SERVER: str = "localhost"
     POSTGRES_PORT: str = "5432"
 
